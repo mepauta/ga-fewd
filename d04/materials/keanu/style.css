@@ -1,0 +1,15 @@
+h1 {
+  color: #7FDBFF;
+  background-color: pink;
+  margin: 10px;
+  padding: 30px;
+  height: 75px;
+  width: 45px;
+  border: 45px solid red;
+}
+div{
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
