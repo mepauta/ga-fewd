@@ -1,0 +1,66 @@
+h1{
+  font-size: 48px;
+  color: red;
+}
+h2{
+  font-size: 32px;
+}
+h3.date{
+  font-size: 40px;
+}
+h3.article-title{
+  font-size: 40px;
+}
+div.container{
+  font-family: "Lato";
+  /* width: 960px; testing with margin only*/
+  margin-right: 40%;
+}
+div.main-navigation{
+  color:#cccccc;
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 50px;
+}
+a.main-navigation{
+  color: blue;
+}
+
+/* Why does the text above only change to blue 
+but when I tried to used a color from color picker
+(a grey tone of any sort, it wont change color?)
+*/
+
+.bottom-navigation{
+  color:#dddddd;
+}
+.date{
+  color:#cccccc;
+}
+.article-title{
+  color:black;
+}
+p{
+  color:#444444;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: #DD0000;
+}
+img{
+  width: 100%;
+}
+
+a:hover{
+  background-color: #aa0000;
+}
+
+a.continue{
+  display: inline-block;
+  text-align: right;
+  width: 100%;
+}
+
+/*would I have needed to add padding instead of
+"inline block" so only the word has the hover effect?*/
