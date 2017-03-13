@@ -1,0 +1,9 @@
+.top{
+  height: 100px;
+  background-color: gray;
+}
+.col-1-2{
+  background-color: gray;
+  height:100px;
+  padding-right: 50px;
+}
