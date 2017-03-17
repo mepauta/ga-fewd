@@ -41,20 +41,40 @@ h1, .tagline, h2 {
 h3, button, nav {
   font-family: "Oswald";
 }
-.tagline{
+/*.tagline{
   background-color: #C6C6C6;
-  text-align: center;
+  text-align: center;*/
+}
+.taste{
+  text-decoration: line-through;
 }
 .text-image{
   background-image: url('../img/coworking.jpg');
-  height: 100px;
+  height: 300px;
   display: inline-block;
 }
 
+#text-box{
+  display: inline-block;
+  width: 25%;
+  height: 50%;
+  margin-right: 10px;
+}
 button{
   background: #C6C6C6;
   width: 188px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px #888888;
 }
 section.grid{
   background-color: #ededed;
+}
+
+.border{
+  border-right: 1px solid gray;
+  padding-bottom: 5px: 
+}
+div.footer{
+  background-color: black;
+  color: white;
 }
