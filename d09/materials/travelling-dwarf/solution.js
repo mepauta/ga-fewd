@@ -11,13 +11,48 @@ while (x < 4) {
 }
 
 
-
 d.orient("down"); 
 x=0;
-while (x < 17) {
+while (x < 16) {
   d.move();
-  x = x +1;
+  x = x + 1;
 }
+
+x=0;
+d.orient("right"); 
+while (x < 6) {
+  d.move();
+  x = x + 1;
+}
+
+x=0;
+d.orient("up"); 
+while (x < 11) {
+  d.move();
+  x = x + 1;
+}
+
+x=0
+d.orient("right");
+while (x < 6){
+  d.move();
+  x = x + 1
+}
+
+x=0
+d.orient("down");
+while (x < 9){
+  d.move();
+  x = x + 1
+}
+
+x=0
+d.orient("right");
+while (x < 2){
+  d.move();
+  x = x + 1
+}
+
 
 // d.move();
 // d.move();
