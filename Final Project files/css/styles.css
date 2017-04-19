@@ -1,0 +1,142 @@
+/*
+//font-family: 'Catamaran', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Pacifico', cursive;
+*/
+.container {
+  width: 940px;
+  margin-left: 5%;
+}
+
+.nav-links {
+  padding-right: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-links, footer, .Resume-dd {
+  color: white;
+}
+
+.Resume-dd {
+    background-color: #ffccb3;
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    padding: 0px 5px 5px 5px;
+    margin-top: -10px
+    margin-left: 590px;
+    border-radius: 10px;
+    border-radius: 5px;
+    width: 100px;
+    display: none;
+    /*position: relative; FIX THIS WHEN YOU ARE DONE WITH THE OTHER DROPDOWNS*/
+    font-size: 12px;
+  }
+
+
+h2, .twitter-timeline {
+  font-family: "Quicksand", sans-serif;
+  color: FFB20D;
+}
+
+hr {
+  margin: 0;
+}
+
+.news, p {
+  text-decoration: none;
+  font-family: "Catamaran", sans-serif;
+  color: 959696;
+}
+/*a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+}*/
+.text-image{
+  background-image: url('img/desk.jpeg');
+  height: 300px;
+  display: block;
+} 
+button{
+  background-color: FFB20D;
+  width: 188px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  margin-left: 89px;
+}
+section.grid{
+  /*background-color: rgba(155,155,155,0.4);*/
+  background-color: white;
+} 
+
+footer, .nav-bar{
+  background-color: #ffccb3;
+  /*color: rgba(155,155,155,0.4);*/
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  border-radius: 10px;
+  /*box-shadow: 10px;*/
+}
+
+.nav-bar{
+  margin-bottom: 10px;
+}
+.social-buttons{
+  height: 30px;
+  width:30px;
+}
+
+#desk-photo {
+  
+  height:130px;
+  background-image: url('../img/desk.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+
+}
+#campus-photo {
+  height:130px;
+  background-image: url('../img/campus.jpg');
+  background-repeat: no-repeat;
+  background-position: 25%;
+  /*figure out how to position or zoom out image*/
+  border-radius: 10px;
+
+
+}
+
+#bday{
+  background-image: url('../img/bday.PNG');
+}
+
+#gang{
+  background-image: url('../img/gang.PNG');
+}
+
+#family{
+  background-image: url('../img/family.PNG');
+}
+
+#wine{
+  background-image: url('../img/wine.PNG');
+}
+
+.slides {
+  height: 300px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin: auto;
+
+}
