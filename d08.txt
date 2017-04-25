@@ -1,0 +1,25 @@
+1. Normalize
+
+Use normalize.css
+
+*Reset CSS- overrides default styles and eliminates cross browser issues. Takes off the browser defaults. You have to add it as its own stylesheet. Jeff doesnt tend to use them since it elimiates the bullet points and hearder sizes.
+
+*Normalize sets the same styles across the browsers
+
+For QAing HTML creatives that look across different browswer, you can suggest them to use normalize or they might be using new CSS that all browswers might 
+
+
+YOUR STYLES need to go last on the <link> list of stylesheets so your styles can be the dominant ones.
+
+2. Semantic Elements- they are functionally equivalent to divs. They are block elements, just boxes. <header><nav><section><article><footer>
+The element itself describes the content. 
+You can refer to them as is on the style sheet, and you can make them inline block, anything just like divs!
+
+M-alternative unit of measure. unit of measure in typography
+rem-root m. 
+The root element is the html tag. You can put the pixel size in html (ie. 12px) and then have 3rem/2 rems and that means three/two times the root pixel. so this would be 2=24px, and 3=36px
+This is a good way to establish font sizes because if you need to increase the font by 20% or whatever, you can change the font pixels within the html font-size and then the rest would take effect. Instead of having every font in px and then going to change in each out. 
+
+You can add this to @media and have 
+
+DO NOT USE EMs.

@@ -1,0 +1,94 @@
+Day 3
+
+How to submit homework
+-Commit changes on github
+-SYNC on github
+-Go to personal profile on github site
+-Add an issue
+-Add URL from Code folder
+-Paste on Issue and submit
+
+
+
+
+
+ROOT-the start
+absolute path- the full path
+relative path-located in the same file as page
+*absolute path WILL BREAK if you move file location/sub directories 
+
+
+"./(folder)/(nameoffile)" its in a subdirectory of the current folder
+
+"../" means that it is up a generation. Not a sibling file. One Parent up. 
+
+Everything needs to be wrapped in a tag or else SEO will suffer. 
+
+
+html tag <html lang="en-us">- tells what language this page is written
+
+closing </html> html tag belongs at the bottom of the entire HTML code
+<html> tag is a root element-everything else is a child
+
+add <title> tag to add the page name</title>
+<head> will contain all the style stuff. referred to as metadata
+<body> will contain all of the content tags/content of the page
+
+Formalizing the document
+<!DOCTYPE html>
+<html lang="en-us"
+	<head>
+	-<title>
+	-<style>
+	<body>
+
+Style sheets-If there is a change to the style that needs to happen to all pages, a CSS file can do that, instead of going into the head of all pages individually. 
+
+You import the CSS file via a LINK tag
+<link rel="stylesheet" type="text/css" href="./style.css"
+
+h1 {
+	color:green;
+}
+
+FOR CSS Properties:
+h1 would be selector (tag selector)
+color is property
+green is value
+
+
+To change the colors for one of the selectors and not all:
+EX: P tag
+YOU MUST five the selector an ID.
+Add the ID attribute to the P tag in the HTML sheet
+
+<p id="first">
+
+In CSS- 
+p#first {
+	color:green;
+}
+
+IDs are unique. It identifies one element. Use an ID if there is only one single element in the entire site that you need different. Other than that, there is a different style tool.
+
+CLASS
+Give it class attribute (class="highlight") in html. Very similar to ID. 
+SYNTAX IS DIFFERENT in CSS. Classes can be used in numerous elements.
+EX in CSS:
+
+p.highlight {
+	background-color:yellow
+}
+*p.highlight will only apply to paragraphs that have highlight attribute
+*.highlight in css will apply to all content that has highlight attribute if its found in p tag or h1 tag
+*for IDs, you dont need to add the tag in front of ID in CSS (ex: #baloney {...)
+
+
+Line that goes across the page <hr>
+rounded corners and shadow are CSS properties:
+box-shadow
+border-radius
+
+
+
+

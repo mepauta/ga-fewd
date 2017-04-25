@@ -1,0 +1,46 @@
+<aside>
+border radius creates the rounding of the edges of the box
+shadowing goes hand in hand
+
+rgba, alpha of 1 takes out all the transparency, becomes completely opaque. he used .7
+
+text- decoration: line through; 
+border right for the ones at the bottom with buttons. pixel solid and then color
+
+
+Elements is for html elements
+Console is for javacript elements
+
+functions make stuff happen
+arguments are where or how
+
+
+alert("WOAHHHHHHHH");-For a box to pop up. 
+
+Grid has a rule that you cannot fill the same tag twice. 
+
+Strings are things between quotations
+
+
+prompt ("") will make a pop up
+
+var-gives the word next to it value
+if you have  a variable, you can refer to the value and it will give you that valu
+
+String "" is hardcoded
+
+
+g.fill(0,2, "color ")
+
+comparator ===, <, >, 
+
+
+else statement-if or than
+
+statements-just a well throrn line of JS
+	-variables
+	-strings"", number
+	-arguments
+Conditionals
+	-comparators
+Loops-rerun until the statement is no longer true. We use loops to save code. (while)

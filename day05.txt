@@ -1,0 +1,76 @@
+When to use padding v margin?
+
+Padding creates internal space within the box. Margin 
+Padding-space between box and text
+Margin-space between containers
+
+If you want border to be far away from text, that would be padding.
+if you have other boxes, and want to push those away from each other, you use margin. 
+
+Google Fonts-fonts.google.com
+
+To change font of the content in the body, DO NOT use h1, p, ul. USE body {
+A rule that is applied to an element is applied to that element and all of its decendants. You can override that inheritance if you create a rule for that ex: h2 under the body style rule
+
+EX:
+<style>
+	body{
+		font-family: 'Roboto', sans-serif;
+		}
+	h2{
+		font family: 'Comic Sans MS';
+
+
+Hex code:color
+
+color: rgb (144, 195, 212);
+
+RGB you can use instead of hex code. Can be used interchangeably. 
+If there is something next to the RGB code, it dictates its transparency
+
+Alpha 
+opacity
+
+
+REVIEW:
+
+Elements that are block for default-p tags, headers, divs
+
+What are inline elements?
+
+Inline elements are right next to each other. They CANNOT have their height and width changed. They can only push things on the right and left.
+
+<Span> tags (also inline element) are used when you want to style specific things within the body. You can give span tags an ID and class. 
+
+image tags are inline block element-height and width, top and bottom can be changed
+<a> tags are inline elements which have restrictive features which is fine if you are styling 
+<p> tags are block elements. They want their own block. If you add an img and p tag, they will be in their own block. 
+
+You can change block elements by adding the inline-block character in CSS (ex:display: block
+you can manipulate anything by making inline blocck to add 
+
+Usually make inline elements to inline-block.
+
+hover to make something orange
+a:hover{
+backround-color:orange;
+}
+
+to get rid of default text settings use "text decorator"
+if you have an inline block in the a tag as in the horizontal nav exercise, you do not need to change the padding in the nav as the inline block will take size of the block
+
+In the body, for the multiple font family, it is set up that way just in case the browser cannot find the previous fonts
+
+
+
+
+
+
+
+
+
+
+
+
+
+

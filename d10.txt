@@ -1,0 +1,39 @@
+1.wait for user event
+2.read the value of an input
+3.send data to server and get back responcse (not today)
+4. Manipulate the document (ex: twitter shows check mark or error depending on value of input)
+
+We need to work with jQuery for 1,2, 4
+
+<script> tags connect and run javascript. just like link tag connects and runs css
+
+CSS selectors and jQuery selectors are the same. ex: changing h1 in jS $("h1").text("dogs are cute"); or $("p.cool").text(); to select one of the p tags. 
+
+changes to the dom (which is rendered html) happen in the browsing session in real time through the javascript
+
+text argument takes no argument or one argument. When no argument, it reads the current value. If you have an argument, it reads the argument. 
+
+If you get a NaN error, it meants "Not a Number"
+
+use var if you want to save something and use it later. if you want to add some text, you have to save the vars.
+
+var originalText = $("p.cool").text()
+var additionalText = "And I added some stuff."
+
+$("p.cool")text(originalText + additionalText);
+
+console.log your variable to see what is happening. such as counting clicks. 
+
+if statement to have message on 2nd click appear, use if statement. for it to go back, use else statement and make the original text a var outside of that string. 
+
+text in input tag is a VAL value
+
+
+RULES: 
+.text()
+.val()
+.on()
+.css("property", "value")
+
+
+you can change color ex: .css("color", "blue")

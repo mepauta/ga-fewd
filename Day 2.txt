@@ -1,0 +1,64 @@
+document- anything thaht links under view page source
+rendered-the product of html
+tag- anything that has brackets ex- h1 is a header tag, p is a paragraph tag
+opening <> and closing </> tags
+"<a" is called an anchor <a href=""> is link
+href is an attirbute
+ATTRIBUTE is something that is contained in a tag
+CONTENT is what is within a tag
+
+write HTML and see how it would render-codepen.io
+ul-undoredered list
+li-list item
+ol-ordered list indicates that the content is in a specific order
+
+nesting-list items LI are nesting inside the UL tags. the LI are the children of the UL. 
+
+<table>
+<tr>
+<td>Temperature</td>
+<td>Date</td>
+</tr>
+<tr>
+<td>30</td>
+<tr/>
+</table>
+
+
+
+
+tr-row
+td-cell
+
+<img src=""> image tag 
+src is an attribute
+in the "" is where the image can be found
+image tag DOES NOT have closed since there is no content to close around.its just an image so it does not require a closing tag. 
+
+WHEN YOU NEST, YOU INDENT (TAB)
+
+for lists, click control and in front of each letter of what is going to be listed, and then add the <li>
+
+"./" means in the same folder as me. since the files are in the same folder and they are siblings
+
+
+
+
+INLINE STYLING=having css in the html page
+
+<style> tag is HTML
+anything between is CSS
+
+
+Selector {
+(declarations) property: value;
+
+}
+
+we can add everything for the style of the page within the entire style tags. aka headers and image. will apply to the tags that you want to style
+
+
+
+LAB: Bonus. build out more than one page and link out to other pages. 
+
+Style tag within each page. ORGANIZE YOUR FOLDERS. submitting the lab we will do together on tuesday.

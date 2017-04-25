@@ -1,0 +1,71 @@
+*download desktop app*
+
+Unit 1
+-HTML (Content) / CSS (Styling)
+
+4 wks
+
+Unit 2
+-Javascript (interactive)
+
+4 wks
+
+Unit 3
+-Networking/APIs
+
+2 wks
+
+
+Final project- incorporate unit 1 and 2 (start thinking about it by wk 5)
+gallery.ga.co
+
+
+Homework- assigned something after class every THURS. 
+
+Office hours-Dan 5:30-6:30 Tu/Th and by appt. *****more JS stuff***
+
+Daily exit tickets- use to give feedback if you dont understand something, and will be explained after class
+
+
+
+Learning Objectives:
+-Explain the purpose of version control software, both generally and for the workflow of the class
+-Distinguish between local and remote repositories
+-Use the GitHub desktop app to sync local 
+
+
+
+
+VERSION CONTROL- software that manages changes to a set of files. 
+should be able to tell you two things:
+1.what is the current state of all files?
+2.Eht is the history of each file?
+
+5 separate files for even a simple website
+simple apps have 50 files
+
+Git is version control software. 
+
+HOW does version control software work?
+
+
+
+app/
+	index.html
+	img/
+		main.jpg	
+
+Directory
+	subdirectory
+
+("app/" would be directory and "img/" would be subdirectory and also "index.html")
+
+Repository is a folder that git is managing
+
+local-your computer
+repository=directory ( a folder you decide is a repo)
+
+ON sublime
+1.create a file/change
+2.commit on github
+3.sync

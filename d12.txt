@@ -1,0 +1,18 @@
+CSS positioning
+
+When you give an element position absolute, its going to ask what relative position it should be. So if inner has 5px, and outer has nothing , the element this will be positioned against, it will use the body as a reference . You have to add "position relative" for what you waht the position absolute to relate to. 
+
+transform: rotat (45deg); will rotate the box
+
+add top: px or % 
+and left: px of %
+
+
+position: fixed; - stays on the screen and does not go anywhere. like a nav that goes as you scroll or a chatbox
+
+
+REMEMBER THE SYNTAX!!!! . when using class and # for IDs!!!!!
+
+default styling (such as hiding the div under the button click, hide it in the css by doing display:none and then add the toggle function in the js
+
+focus will only work on buttons. for items in drop down use hover. for nav, use focus

@@ -1,0 +1,67 @@
+FLOAT_ image that you want text wrapped around it. Image would be float: right;
+
+CSS specificity
+-define the CSS specificity rules and use them to target elements as desired. 
+
+WHat is CSS Specificity?
+wHhen you write a style rule, if there is an ID to a tag, the ID being that is specific will take precendent since the element selector will apply to every type.
+
+If you have contradictory styles, the last rule will win. EX if you have text blue and then text orange for the same class, the last added class will win. 
+
+
+SELECTORS - Relational
+
+If you wnt the childre of the backed-good LI to be background color blue, instead of making classes for each li under that specific ul class. 
+
+ul.baked-goods li {
+ background-color: blue;
+}
+
+
+The ADJACENT sibling is the one below the tag you are talking about
+
+Selectors-pseudo class
+-a hover is a pseudo 
+-If you want to make the font larger for the first LI in the UL: ul:first child
+
+First set the width of the container, then center it. 
+
+If you add border, margin and padding, it adds to the width. 
+border-sizing: border-box; -if you add padding, the box will stay the same width.
+
+Fixed width and Fluid layout. FLuid layouts makes responsive layouts
+
+
+look at the super school news fluid in the repo!!!
+
+
+Fluid layouts use percentages for width.
+
+Media query-another form of responsive layout
+
+480 pixels wide is the standard mobile width.
+
+@media (max-width:480px) {
+hi, .nav, .article {
+	width:100%
+	display:block;
+	}
+h1, .nav {
+	
+	}
+}
+
+the above has to be display block or else inline block will not have stuff on top of another
+you can have the containter under @media be 100% for mobile
+
+
+for the container tag not in mobile, set the max width so nothing moves over. 
+
+What does a library mean? If you say CSS Library, is using someone else's CSS.
+
+
+
+
+For Col-1-!, the ! is the amount of columns you have
+
+For challenge, DIVS have background color and height

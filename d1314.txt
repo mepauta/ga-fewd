@@ -1,0 +1,41 @@
+functions, conditional , loops- the ones that have an extra curly brace
+
+alerts, and carousel stuff. navs. 
+
+there are nav bar libraries
+
+
+bootstrap library
+
+getbootstrap.com- library of libraries
+
+
+site.github.com works on google
+
+curly braces are objects {}. An object is a dictionary. Its a kind of data. A series of key value and pairs- just like the idea of "display: inline block"
+
+
+square braces are called arrays []. An array is a list. Arrays are just going to hold values on a list. 
+
+We can read data with square braces with quotes with console.log(VARhere["objectinvar"]);
+
+a semicolon ; in JS is used to define a line. Commas mean and then this one and then this one.
+
+True does not need "" because its a bulean. Everything else is a string  
+
+you can have objects within objects so you can describe multiple objects for that one object. 
+
+In the example, you dont need quotes in the keys if you are working with stuff within your jS. But if it is going through the internet, you need quote in the keys.
+
+
+you use an array so you can list some stuff. it is a list of elements. square braces, no keys, and ordered list. so when you are testing use:
+console.log(ingredients[0-or the number on the list])
+
+
+if you have an array inside of an object thatis within an object, you will have to add another square brackets once you define it ex:ct["usSenators"][1] 
+
+
+
+you have to make a variable so you can subsitute the q in the URL string to show the name of the city that was added on there
+
+finish this project for the weekend and flesh out the rest of the wireframe for your project. Start working on the final project!!!!! Must be done by 4/18. 

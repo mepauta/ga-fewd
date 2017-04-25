@@ -1,0 +1,23 @@
+ALWAYS have your jacascript right before the closing body tag
+
+To make the boxes bigger and not have everything in js, you can make a css rule and add another class to the css to make it bigger. Then in the JS  you van make a rule (below)
+.addClass("bigger") 
+
+then to make it smaller
+$("div#one").removeClass("bigger");
+
+api.jquery.com used to see what jquery can do. 
+
+
+and next time make it smaller
+
+toggleClass function
+
+true false statements
+
+
+parseInt(
+
+takes a number inside the sting and returns that number as a number, instead of a string. 
+
+If you define the var outside of the rule, then that var is a number. if it is not defined as a number, then it is a string. 

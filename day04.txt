@@ -1,0 +1,38 @@
+When you add a second class to the class, you can just separate by a space. Classes can be mixed with IDs.
+
+ex:<p class="green big-text"
+
+LESSON
+
+What is the box model?
+Every tag you can conceptualize as a box.
+external space is margin. 
+boundary of the box is called border
+
+In CSS (ex):
+p{
+	border: 24px 10px 16px 10px; 
+}
+top right bottom left-in replacement instead of writting padding -top, padding-right etc...
+
+If all values are the same, you can just add 1 value
+ex:
+margin: 0;
+
+Display-types
+-many different types, such as block elements. inline and inline block. 
+-nothing can be horizontally "next" to a block element
+-default takes up 100% of the width of their parent
+-div is just a box, you can put content in it. 
+
+You can add content to the div
+
+ex:
+div{
+border
+margin:
+}
+
+text-align:center; to center content
+Centering will be altered depending on the padding
+margin-left:auto; and margin-right:auto; will center content tag

@@ -4,11 +4,11 @@ font-family: 'Josefin Sans', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Pacifico', cursive;
 */
-.container {
+/*.container {
   width: 940px;
   margin-left: 5%;
 }
-
+*/
 .nav-links {
   padding-right: 50px;
   text-decoration: none;
@@ -24,14 +24,13 @@ font-family: 'Pacifico', cursive;
     text-align: center;
     font-family: "Pacifico", cursive;
     padding: 0px 5px 5px 5px;
-    margin-top: -10px
-    margin-left: 590px;
-    border-radius: 10px;
+    margin-top: -10px;
     border-radius: 5px;
-    width: 100px;
-    display: none;
-    /*position: relative; FIX THIS WHEN YOU ARE DONE WITH THE OTHER DROPDOWNS*/
+    width: 5%;
     font-size: 12px;
+    display: none;
+    margin-left: 55%;
+
   }
 
 
@@ -40,8 +39,10 @@ h2, .twitter-timeline {
   color: FFB20D;
 }
 
-hr {
-  margin: 0;
+h3, h4 {
+  font-family: "Josefin Sans", sans-serif;
+  color: FFD885;
+  text-align: center;
 }
 
 .news, p {
@@ -77,12 +78,16 @@ section.grid{
 footer, .nav-bar{
   background-color: #ffccb3;
   /*color: rgba(155,155,155,0.4);*/
-  padding-top: 20px;
-  padding-bottom: 10px;
+  padding-top: 1%;
+  padding-bottom: 1%;
   text-align: center;
   font-family: "Pacifico", cursive;
   border-radius: 10px;
   /*box-shadow: 10px;*/
+}
+
+footer {
+  margin-top: 2%;
 }
 
 .nav-bar{
@@ -110,8 +115,15 @@ footer, .nav-bar{
   background-position: 25%;
   /*figure out how to position or zoom out image*/
   border-radius: 10px;
+}
 
-
+#work-photo {
+  height:130px;
+  background-image: url('../img/work.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  /*figure out how to position or zoom out image*/
+  border-radius: 10px;
 }
 
 #bday{
@@ -139,4 +151,18 @@ footer, .nav-bar{
   border-radius: 10px;
   margin: auto;
 
+}
+
+.accounts {
+  width: 82%;
+  height: 43%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  margin-left: 7%;
+}
+
+#img-wrapper {
+  margin-left: 37%;
 }

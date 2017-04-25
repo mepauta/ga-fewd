@@ -1,0 +1,61 @@
+Why do h1's have margins?
+the browser has its own built in style for elements. There are css that is included in the browser. 
+
+for the mock up:
+"dew is a header 1, name is a header 2
+entire page would be a div that holds 
+
+give it 0 margin because there is no space in the mock up
+both h1 and h2 have margins, set at margin 0.
+
+
+*add a line break for the name!! so it separates the two**
+
+The image is as wide as the page, and the page will be wide and will take over necessary space in page
+
+
+margin:0 auto; will center everything *such as all content in the div class="container"
+
+for the image css, if you set the height to px, it will squish the image to be sized to that pixel.
+for usign width in 100%, the picture will take 100% of the image that it is, or the size of the container that it is in. 
+object fit will need height and width also (hidden in css since we created a div for the pic (jeff's file)
+
+to center and crop background image
+
+
+
+"div.main > p" will work in css to style a child of a selector.
+There is line spacing in the p within the main and to change you can use line-height: 22px;
+
+you can overide by making exceptions. 
+if a tags are width 40%, you can make email at 100% only in css. 
+
+a tags you can give padding to make it taller. padding in css is only two sizes 10px(TB) 0 (LR)
+space between all would be margin bottom. 
+
+margin right for the twitter medium to push the others to the right
+
+padding top and bottom for the footer. 
+
+
+Check out the way I have set up the img src in the homework, we are going forward in the fashion blog folder to the img folder
+
+
+
+NOTES FOR ME:
+Margin versus width of container
+
+
+
+
+
+
+
+
+
+
+
+
+Resources: MDN
+always check browser compatibility!!!!!
+stackoverflow
